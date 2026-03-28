@@ -1,9 +1,9 @@
 # TSP Solver Benchmark — Gurobi vs Hexaly
 
-A Jupyter notebook that puts two very different optimization solvers head-to-head on the classic Traveling Salesman Problem.
+In this Jupyter notebook I compare two different solvers head-to-head on the classic Traveling Salesman Problem.
 
-**Gurobi** tackles TSP as an exact Mixed-Integer Program with lazy subtour elimination constraints. 
-**Hexaly** takes a heuristic approach, using a list-based model with local-search optimization. 
+- **Gurobi** tackles TSP as an exact Mixed-Integer Program with lazy subtour elimination constraints. 
+- **Hexaly** takes a heuristic approach, using a list-based model with local-search optimization. 
 Both are given the same instances and the same time limit — then the notebook does the rest.
 
 ---
