@@ -3,7 +3,8 @@
 In this Jupyter notebook I compare two different solvers head-to-head on the classic Traveling Salesman Problem.
 
 - **Gurobi** tackles TSP as an exact Mixed-Integer Program with lazy subtour elimination constraints. 
-- **Hexaly** takes a heuristic approach, using a list-based model with local-search optimization. 
+- **Hexaly** takes a heuristic approach, using a list-based model with local-search optimization.
+
 Both are given the same instances and the same time limit — then the notebook does the rest.
 
 ---
@@ -108,3 +109,7 @@ python Hexaly_solver.py --instances instances/ --time-limit 60 --output Hexaly_r
 ## Key Takeaway
 
 On smaller instances (up to ~3,800 nodes), Gurobi delivers proven-optimal solutions. Beyond that, model construction becomes the bottleneck and it may not find any feasible solution within the time limit. Hexaly always returns a near-optimal solution with a modest gap (1–5%) and scales more gracefully to the largest instances.
+
+
+---
+Made with ❤️ by [Mohammed Alanazi](https://github.com/Mohammed-Alanazii)
