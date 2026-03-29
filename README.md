@@ -17,14 +17,13 @@ The notebook (`TSP_Benchmark.ipynb`) runs end-to-end through ten sections:
 |---|---------|--------------|
 | 1 | **Run Solvers** | Executes both solvers on every `.tsp` file in `instances/` and writes results to CSV |
 | 2 | **Load Results** | Reads the CSVs back into Pandas DataFrames |
-| 3 | **Side-by-Side Comparison Table** | A color-coded HTML table showing objective value, gap, solve time, total time, and status for each solver |
+| 3 | **Side-by-Side Comparison Table** | A color table showing objective value, gap, solve time, total time, and status for each solver |
 | 4 | **Solve Time Comparison** | Grouped bar chart of pure solve times |
 | 5 | **Total Time Comparison** | Grouped bar chart of end-to-end time (load + build + solve) |
 | 6 | **Optimality Gap Comparison** | Bar chart comparing gap to optimality |
-| 7 | **Objective Value Comparison** | Bar chart comparing final tour costs |
-| 8 | **Time Breakdown (Stacked)** | Stacked bars showing how each solver spends its time across loading, model building, and solving |
-| 9 | **Nodes vs Solve Time (Scalability)** | Scatter plot showing how each solver scales with instance size |
-| 10 | **Summary Statistics** | Aggregated metrics — average gap, average time, solve rate, and more |
+| 7 | **Time Breakdown (Stacked)** | Stacked bars showing how each solver spends its time across loading, model building, and solving |
+| 8 | **Nodes vs Solve Time (Scalability)** | Scatter plot showing how each solver scales with instance size |
+| 9 | **Statistics** | A summary table of gap statistics for each solver across all instances |
 
 ---
 
